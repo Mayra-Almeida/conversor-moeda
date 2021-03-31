@@ -98,20 +98,17 @@ input:disabled {
     color: dark;
 }
 
-<<<<<<< HEAD
 /* Aplicação de responsividade */
+
 @media (max-width: 800px) {
-    
     .container {
         width: 80%;
         left: 10%;
         top: 5%;
     }
-
     #titulo {
         font-size: small;
     }
-    
     select, option {
         height: 35px;
         font-size: 15px;
@@ -120,7 +117,6 @@ input:disabled {
         margin-left: 0%;
         width: 85%;
     }
-    
     #valor, #result {
         width: 80%;
         height: 50px;
@@ -130,24 +126,16 @@ input:disabled {
         margin-left: 0%;
         margin-top: 3%;
     }
-    
     #titulo {
         height: 90px;
     }
-    
     h3 {
         font-size: 16px;
         margin-left: 3px;
     }
-    
     .btnconvert {
         color: black;
         font-size: 14px;
         margin: 70px;
-=======
-@media (max-width: 900px) {
-    .container{
-        width: 100%;
->>>>>>> 6512c6084bee28a11e01c856278fcb0f252af7e9
     }
 }
