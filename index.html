@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mayra Almeida">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="icon" href="./imagens/favicon.jpg">
+    <script src="funcoes.js"></script>
+    <title>Conversor de Moeda</title>
+</head>
+
+<body>
+    <!-- Título -->
+    <div class="container">
+        
+        <div id="titulo">
+            <h1>Conversor de Moeda</h1>
+        </div>
+
+        <!-- Selecionar Opção 1ª Moeda -->
+        <div class="conversor">
+            <h3 id="textConvert">Converter de:</h3>
+            <select id="selectMoeda1">
+                <option value="brl" selected>Real (BRL)</option>
+                <option value="usd">Dólar Americano (USD)</option>
+                <option value="eur">Euro (EUR)</option>
+                <option value="gbp">Libra Esterlina (GBP)</option>
+                <option value="jp">Iene Japonês (JPY)</option>
+            </select>
+            <!-- Inserir valor -->
+            <input type="text" placeholder="00.00" name="valor" id="valor"><br>
+        </div>
+
+        <!-- Selecionar Opção 2ª Moeda -->
+        <div class="conversor">
+            <h3 id="textConvert">Para:</h3>
+            <select id="selectMoeda2">
+                <option value="brl">Real (BRL)</option>
+                <option value="usd" selected>Dólar Americano (USD)</option>
+                <option value="eur">Euro (EUR)</option>
+                <option value="gbp">Libra Esterlina (GBP)</option>
+                <option value="jpy">Iene Japonês (JPY)</option>
+            </select>
+            <!-- Resultado -->
+            <input type="text" placeholder="00.00" disabled id="result"><br>
+        </div>
+        
+        <!-- Botão de Conversão -->
+        <input type="button" class="btnconvert" onclick="convert()" value="Converter">
+    
+    </div>
+
+</body>
+
+</html>
