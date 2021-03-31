@@ -12,19 +12,21 @@ body {
 }
 
 /* Div que agrupa todos os elementos */
+
 .container {
     background-color: rgb(0, 0, 0, 0.9);
     position: absolute;
     text-align: center;
-    width: 25%;
-    height: 70%;
-    left: 37.5%;
+    min-width: 30%;
+    min-height: 70%;
+    left: 35%;
     top: 15%;
     border-radius: 3%;
     color: #fff;
 }
 
 /* Título para a Div */
+
 #titulo {
     color: #e8b100;
     background-color: #363636;
@@ -38,13 +40,15 @@ body {
 }
 
 /* Ajuste de posição das divs de conversão */
+
 .conversor {
     text-align: left;
-    margin-left: 60px;
-    margin-top: 70px;
+    margin-left: 15%;
+    margin-top: 60px;
 }
 
 /* Estilização input valor e resultado */
+
 #valor, #result {
     width: 30%;
     height: 59px;
@@ -54,13 +58,16 @@ body {
 }
 
 /* Estilização lista de select */
+
 select, option {
     height: 64px;
     font-size: 19px;
     cursor: pointer;
+    width: 53%;
 }
 
 /* Estilização botão converter */
+
 .btnconvert {
     width: 120px;
     height: 35px;
@@ -76,6 +83,7 @@ select, option {
 }
 
 /* Aplicação efeito hover botão converter */
+
 .btnconvert:hover {
     cursor: pointer;
     transition: background ease-in 0.2s;
@@ -83,15 +91,57 @@ select, option {
 }
 
 /* Estilização input resultado desabilitado */
+
 input:disabled {
     background-color: white;
     border: none;
     color: dark;
 }
 
-@media (max-width: 900px) {
-    .container{
-        width: 100%;
-        height: 100%;
+/* Aplicação de responsividade */
+@media (max-width: 800px) {
+    
+    .container {
+        width: 80%;
+        left: 10%;
+        top: 5%;
+    }
+
+    #titulo {
+        font-size: small;
+    }
+    
+    select, option {
+        height: 35px;
+        font-size: 15px;
+        cursor: pointer;
+        margin-top: -7%;
+        margin-left: 0%;
+        width: 85%;
+    }
+    
+    #valor, #result {
+        width: 80%;
+        height: 50px;
+        font-size: 15px;
+        text-align: center;
+        border: none;
+        margin-left: 0%;
+        margin-top: 3%;
+    }
+    
+    #titulo {
+        height: 90px;
+    }
+    
+    h3 {
+        font-size: 16px;
+        margin-left: 3px;
+    }
+    
+    .btnconvert {
+        color: black;
+        font-size: 14px;
+        margin: 70px;
     }
 }
