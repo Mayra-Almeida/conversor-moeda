@@ -11,8 +11,10 @@ function convert() {
     // Verificação de número válido/não válido
     if (isNaN(val) || val < 0) {
         alert("Digite um número válido.");
+        result = 0
     } else if (val == null || val == "") {
         alert("Digite um número.");
+        result = 0
     } else {
         // Conversão Real
         if (selMoeda1 == "brl") {
