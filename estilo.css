@@ -88,3 +88,9 @@ input:disabled {
     border: none;
     color: dark;
 }
+
+@media (max-width: 900px) {
+    .container{
+        width: 100%;
+    }
+}
