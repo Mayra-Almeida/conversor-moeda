@@ -1,5 +1,5 @@
 # conversor-moeda
-<h1>Desafio - Primeira aula - Imersão Dev Alura</h1>
+<h1>Desafio - 1ª aula - Imersão Dev Alura</h1>
 
 <p>Inicialmente, foi sugerida a conversão do Dólar para o Real, com exibição dos resultados através do alert.
 Este projeto contou com alguns diferenciais, tendo a opção de converter os valores de 5 moedas diferentes.</p>
